@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="CS-Solution Feature2" Id="9b6f3a06-dd23-4d1f-9e33-66922e43b262" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="UserInfo\Elements.xml" />
+    <ElementFile Location="UserInfo\Schema.xml" />
+    <ElementManifest Location="UserInfoInstance\Elements.xml" />
+    <ElementManifest Location="User Type\Elements.xml" />
+  </ElementManifests>
+</Feature>

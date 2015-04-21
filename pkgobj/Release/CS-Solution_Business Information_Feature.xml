@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="BusinessInfo" Id="f11a99c4-2a4d-421d-9479-951b31d89bc0" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="BusinessInfoInstance\Elements.xml" />
+    <ElementManifest Location="BusinessInfo\Elements.xml" />
+    <ElementFile Location="BusinessInfo\Schema.xml" />
+    <ElementManifest Location="BInfoCT\Elements.xml" />
+    <ElementManifest Location="Business Number\Elements.xml" />
+    <ElementManifest Location="Program Account Number\Elements.xml" />
+    <ElementManifest Location="Business Name\Elements.xml" />
+    <ElementManifest Location="Location Code\Elements.xml" />
+    <ElementManifest Location="Business Type\Elements.xml" />
+  </ElementManifests>
+</Feature>

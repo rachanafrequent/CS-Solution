@@ -1,0 +1,5 @@
+E:\CargoSecurity\CS-Solution\CS-Solution\bin\Release\CS-Solution.dll
+E:\CargoSecurity\CS-Solution\CS-Solution\bin\Release\CS-Solution.pdb
+E:\CargoSecurity\CS-Solution\CS-Solution\obj\Release\CS-Solution.csprojResolveAssemblyReference.cache
+E:\CargoSecurity\CS-Solution\CS-Solution\obj\Release\CS-Solution.dll
+E:\CargoSecurity\CS-Solution\CS-Solution\obj\Release\CS-Solution.pdb

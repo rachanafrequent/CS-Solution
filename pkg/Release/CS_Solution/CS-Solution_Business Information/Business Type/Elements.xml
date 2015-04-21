@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{71d4e112-ac94-4483-88e6-eda8a51d54c2}"
+       Name="Business_Type"
+       DisplayName="Business Type"
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Wholesaler</CHOICE>
+      <CHOICE>Freight Forwarder</CHOICE>
+      <CHOICE>Trucking Company</CHOICE>
+      <CHOICE>Air Carrier</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

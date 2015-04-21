@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{4065b888-834f-42fd-ab69-f5b18988bc1f}"
+       Name="Business_Number"
+       DisplayName="Business Number"
+       Type="Integer"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>

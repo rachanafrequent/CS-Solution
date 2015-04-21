@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="UserInfo" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/UserInfo" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100916e9213853142a1b3d21f21acc49fd0" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{5928ff1f-daa1-406c-b4a9-190485a448cb}" Name="User" /><FieldRef ID="{68db6694-b9b7-483a-aac8-eea66d8ee1bf}" Name="User_Type" /><FieldRef ID="{fdc8216d-dabf-441d-8ac0-f6c626fbdc24}" Name="LastNamePhonetic" /><FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" /><FieldRef ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" Name="Birthday" /><FieldRef ID="{2ab923eb-9880-4b47-9965-ebf93ae15487}" Name="HomePhone" /><FieldRef ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" /><FieldRef ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" /><FieldRef ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" /><FieldRef ID="{F5B36006-69B0-418c-BD4A-F25CA7E096BB}" Name="HomeAddressStateOrProvince" /><FieldRef ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" /><FieldRef ID="{ce38839e-c1e0-4c80-ae3a-c66ebdc50e4c}" Name="Driver_x0027_sLicenseNumber" /><FieldRef ID="{ced567f4-9603-4de4-91c2-b73792f06901}" Name="Driver_x0027_sLicenseExpiryDate" /><FieldRef ID="{3cd08ee0-3bff-4b05-a520-354cc50d929e}" Name="Business_Name" /><FieldRef ID="{4065b888-834f-42fd-ab69-f5b18988bc1f}" Name="Business_Number" /><FieldRef ID="{228cff59-bb12-4985-b502-76ac79e79e90}" Name="Location_Code" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field ID="{5928ff1f-daa1-406c-b4a9-190485a448cb}" Name="User" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="User" Group="$Resources:core,Base_Columns;" DisplayName="$Resources:core,User_ID;" Required="TRUE" Sealed="TRUE" Type="Integer" /><Field ID="{68db6694-b9b7-483a-aac8-eea66d8ee1bf}" Name="User_Type" DisplayName="User Type" Type="Choice" Required="FALSE" Group="Custom Site Columns"><CHOICES><CHOICE>KC-ACR-Screener</CHOICE><CHOICE>KC-ACR-Access Control</CHOICE><CHOICE>KC-CSC</CHOICE><CHOICE>CA-ACR-Access Control</CHOICE><CHOICE>CA-CSC</CHOICE><CHOICE>RA-ACR-Screener</CHOICE><CHOICE>RA-ACR-Access Control</CHOICE><CHOICE>RA-CSC</CHOICE></CHOICES></Field><Field ID="{fdc8216d-dabf-441d-8ac0-f6c626fbdc24}" Name="LastNamePhonetic" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LastNamePhonetic" Group="$Resources:core,Extended_Columns;" DisplayName="Last Name" Type="Text" /><Field ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FirstName" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,First_Name;" Type="Text" /><Field ID="{C4C7D925-BC1B-4f37-826D-AC49B4FB1BC1}" Name="Birthday" StaticName="Birthday" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Date of Birth" Group="$Resources:core,Person_Event_Columns;" Type="DateTime" Format="DateOnly" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{2ab923eb-9880-4b47-9965-ebf93ae15487}" Name="HomePhone" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="HomePhone" Group="$Resources:core,Person_Event_Columns;" DisplayName="Telephone Number" Type="Text" IMEMode="inactive" /><Field ID="{fce16b4c-fe53-4793-aaab-b4892e736d15}" Name="EMail" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EMail" Group="$Resources:core,Person_Event_Columns;" DisplayName="E-Mail Address" ReadOnly="FALSE" Type="Text" FromBaseType="TRUE" AllowDeletion="TRUE" /><Field ID="{8C66E340-0985-4d68-AF03-3050ECE4862B}" Name="HomeAddressStreet" StaticName="HomeAddressStreet" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Home Address " Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{5AEABC56-57C6-4861-BC12-BD72C30FC6BD}" Name="HomeAddressCity" StaticName="HomeAddressCity" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="City" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{F5B36006-69B0-418c-BD4A-F25CA7E096BB}" Name="HomeAddressStateOrProvince" StaticName="HomeAddressStateOrProvince" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Province" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" /><Field ID="{C0E4B4C6-6245-4846-8561-B8C6C01FEFC1}" Name="HomeAddressPostalCode" StaticName="HomeAddressPostalCode" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="Postal Code" Group="$Resources:core,Person_Event_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" IMEMode="inactive" /><Field Name="Driver_x0027_sLicenseNumber" ID="{ce38839e-c1e0-4c80-ae3a-c66ebdc50e4c}" DisplayName="Driver's License Number" Type="Text" /><Field Name="Driver_x0027_sLicenseExpiryDate" ID="{ced567f4-9603-4de4-91c2-b73792f06901}" DisplayName="Driver's License Expiry Date" Type="DateTime" /><Field ID="{3cd08ee0-3bff-4b05-a520-354cc50d929e}" Name="Business_Name" DisplayName="Business Name" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{4065b888-834f-42fd-ab69-f5b18988bc1f}" Name="Business_Number" DisplayName="Business Number" Type="Number" Required="FALSE" Group="Custom Site Columns"></Field><Field ID="{228cff59-bb12-4985-b502-76ac79e79e90}" Name="Location_Code" DisplayName="Location Code" Type="Text" Required="FALSE" Group="Custom Site Columns"></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="User" /><FieldRef Name="User_Type" /><FieldRef Name="LastNamePhonetic" /><FieldRef Name="FirstName" /><FieldRef Name="Birthday" /><FieldRef Name="HomePhone" /><FieldRef Name="EMail" /><FieldRef Name="HomeAddressStreet" /><FieldRef Name="HomeAddressCity" /><FieldRef Name="HomeAddressStateOrProvince" /><FieldRef Name="HomeAddressPostalCode" /><FieldRef Name="Driver_x0027_sLicenseNumber" /><FieldRef Name="Driver_x0027_sLicenseExpiryDate" /><FieldRef Name="Business_Name" /><FieldRef Name="Business_Number" /><FieldRef Name="Location_Code" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

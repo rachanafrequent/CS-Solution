@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{cfcd1040-3580-4e1d-a2ab-b2b32dc84ec9}"
+       Name="Program_Account_Number"
+       DisplayName="Program Account Number"
+       Type="Text"
+       Required="FALSE"
+       Group="Custom Site Columns">
+  </Field>
+</Elements>
